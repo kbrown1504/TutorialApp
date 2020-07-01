@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A4F196C24AC1E76007A6392 /* ScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4F196B24AC1E76007A6392 /* ScrollView.storyboard */; };
 		B3E70B2424AC1B3B001EC99A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E70B2324AC1B3B001EC99A /* AppDelegate.swift */; };
 		B3E70B2624AC1B3B001EC99A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E70B2524AC1B3B001EC99A /* SceneDelegate.swift */; };
 		B3E70B2824AC1B3B001EC99A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E70B2724AC1B3B001EC99A /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A4F196B24AC1E76007A6392 /* ScrollView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollView.storyboard; sourceTree = "<group>"; };
 		B3E70B2024AC1B3B001EC99A /* TutorialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E70B2324AC1B3B001EC99A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3E70B2524AC1B3B001EC99A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				B3E70B2524AC1B3B001EC99A /* SceneDelegate.swift */,
 				B3E70B2724AC1B3B001EC99A /* ViewController.swift */,
 				B3E70B2924AC1B3B001EC99A /* Main.storyboard */,
+				7A4F196B24AC1E76007A6392 /* ScrollView.storyboard */,
 				B3E70B2F24AC1B3F001EC99A /* Assets.xcassets */,
 				B3E70B3124AC1B3F001EC99A /* LaunchScreen.storyboard */,
 				B3E70B3424AC1B3F001EC99A /* Info.plist */,
@@ -130,6 +133,7 @@
 			files = (
 				B3E70B3324AC1B3F001EC99A /* LaunchScreen.storyboard in Resources */,
 				B3E70B3024AC1B3F001EC99A /* Assets.xcassets in Resources */,
+				7A4F196C24AC1E76007A6392 /* ScrollView.storyboard in Resources */,
 				B3E70B2B24AC1B3B001EC99A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
