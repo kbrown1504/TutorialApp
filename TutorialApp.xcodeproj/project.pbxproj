@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A4F196C24AC1E76007A6392 /* ScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4F196B24AC1E76007A6392 /* ScrollView.storyboard */; };
+		7A4F196E24AC2588007A6392 /* ScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F196D24AC2588007A6392 /* ScrollViewViewController.swift */; };
 		B3E70B2424AC1B3B001EC99A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E70B2324AC1B3B001EC99A /* AppDelegate.swift */; };
 		B3E70B2624AC1B3B001EC99A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E70B2524AC1B3B001EC99A /* SceneDelegate.swift */; };
 		B3E70B2824AC1B3B001EC99A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E70B2724AC1B3B001EC99A /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		7A4F196B24AC1E76007A6392 /* ScrollView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollView.storyboard; sourceTree = "<group>"; };
+		7A4F196D24AC2588007A6392 /* ScrollViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewViewController.swift; sourceTree = "<group>"; };
 		B3E70B2024AC1B3B001EC99A /* TutorialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E70B2324AC1B3B001EC99A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3E70B2524AC1B3B001EC99A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				B3E70B2724AC1B3B001EC99A /* ViewController.swift */,
 				B3E70B2924AC1B3B001EC99A /* Main.storyboard */,
 				7A4F196B24AC1E76007A6392 /* ScrollView.storyboard */,
+				7A4F196D24AC2588007A6392 /* ScrollViewViewController.swift */,
 				B3E70B2F24AC1B3F001EC99A /* Assets.xcassets */,
 				B3E70B3124AC1B3F001EC99A /* LaunchScreen.storyboard */,
 				B3E70B3424AC1B3F001EC99A /* Info.plist */,
@@ -148,6 +151,7 @@
 				B3E70B2824AC1B3B001EC99A /* ViewController.swift in Sources */,
 				B3E70B2E24AC1B3B001EC99A /* TutorialApp.xcdatamodeld in Sources */,
 				B3E70B2424AC1B3B001EC99A /* AppDelegate.swift in Sources */,
+				7A4F196E24AC2588007A6392 /* ScrollViewViewController.swift in Sources */,
 				B3E70B2624AC1B3B001EC99A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
