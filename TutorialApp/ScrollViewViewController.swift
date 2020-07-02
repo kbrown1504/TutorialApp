@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import SafariServices
 
-class ScrollViewViewController: UIViewController {
+class ScrollViewViewController: UIViewController, SFSafariViewControllerDelegate {
 
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
     var selectedItem : Item?
@@ -17,13 +20,22 @@ class ScrollViewViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        image.image = selectedItem?.image!
+        titleLabel.text = selectedItem?.title!
+        descriptionLabel.text = selectedItem?.textDescription!
         
-        descriptionLabel.text = "class ScrollViewViewController: UIViewController { @IBOutlet weak var descriptionLabel: UILabel! override func viewDidLoad() { super.viewDidLoad() class ScrollViewViewController: UIViewController { @IBOutlet weak var descriptionLabel: UILabel! override func viewDidLoad() { super.viewDidLoad() class ScrollViewViewController: UIViewController { @IBOutlet weak var descriptionLabel: UILabel! override func viewDidLoad() { super.viewDidLoad() class ScrollViewViewController: UIViewController { @IBOutlet weak var descriptionLabel: UILabel! override func viewDidLoad() { super.viewDidLoad()"
+        print(selectedItem?.title)
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onLinkButtonPressed(_ sender: Any) {
+        let SFVC = SFSafariViewController(url: URL(string: (selectedItem?.link)!)!)
+        SFVC.delegate = self as! SFSafariViewControllerDelegate
+        present(SFVC, animated: true, completion: nil)
+        
+    }
+    
     /*
     // MARK: - Navigation
 

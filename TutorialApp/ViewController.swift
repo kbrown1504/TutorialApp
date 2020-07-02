@@ -26,12 +26,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath)
+        tableView.deselectRow(at: indexPath, animated: true)
         selectedItem = items[indexPath.row]
+        performSegue(withIdentifier: "tableToDetailSegue", sender: cell)
     }
     
 
     override func viewWillAppear(_ animated: Bool) {
-        let object1 = Item(t: "title", td: "desc", l: "link", i: UIImage(named: "avatarIcon")!)
+        let object1 = Item(t: "title", td: "desc", l: "https://space-facts.com", i: UIImage(named: "avatarIcon")!)
         items.append(object1)
     }
     
@@ -46,6 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let SVC = segue.destination as! ScrollViewViewController
         SVC.selectedItem = selectedItem
+        print(selectedItem?.textDescription)
     }
 
 

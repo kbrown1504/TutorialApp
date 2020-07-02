@@ -47,6 +47,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Sz-Pl-o8K">
                                                 <rect key="frame" x="40" y="824" width="334" height="30"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="onLinkButtonPressed:" destination="Oi2-PE-R5T" eventType="touchUpInside" id="oo3-bT-NCT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -88,6 +91,8 @@
                     </view>
                     <connections>
                         <outlet property="descriptionLabel" destination="3hz-qN-wZB" id="hB7-4z-dIR"/>
+                        <outlet property="image" destination="KpO-TJ-bCj" id="U9U-EU-CVf"/>
+                        <outlet property="titleLabel" destination="XNB-pf-tu4" id="Wy1-no-nNa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddH-df-HHi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
