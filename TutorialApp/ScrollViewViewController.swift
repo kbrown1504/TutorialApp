@@ -11,6 +11,9 @@ import UIKit
 class ScrollViewViewController: UIViewController {
 
     @IBOutlet weak var descriptionLabel: UILabel!
+    
+    var selectedItem : Item?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
